@@ -92,8 +92,68 @@ regex = re.compile("\n")
 randStr = regex.sub(" ", randStr)
 print(randStr)
 
+# Match numbers
+
+# \d : [0-9]
+# \D: [^0-9]
+
+randStr = "12345"
+print("Matches:", re.findall("\d", randStr))
+# Match multiple nos
+
+print("Matches:", re.findall("\d{5}", randStr))
+
+# Match within a range
+
+numStr = "123 12345 123456 1234567"
+
+# Match nos which are 5, 6 or 7 in length
+
+print("Matches:", re.findall("\d{5,7}", numStr))
 
 
+# Match any single letter or number
+
+# \w: [a-zA-Z0-9_]
+# \W: [^a-zA-Z0-9_]
+
+# Check for valid phone no
 
 
+phNum = "412-555-1212"
 
+if re.search("\d{3}-\d{3}-\d{4}", phNum):
+    print("Valid ph no")
+
+# Check for valid first name
+# Valid : 2-20 chars
+
+if re.search("\w{2,20}", "Mini"):
+    print("Valid name")
+
+# \s: [\f\n\t\r\v]
+# \s: [^\f\n\t\r\v]
+
+# Check for valid first and last name
+
+if re.search("\w{2,20}\s\w{2,20}", "Mini Sen"):
+    print("Valid name")
+
+
+# +: One or more chars
+
+# Match for 'a' followed by 1 or more chars
+
+print("Matches:", re.findall("a+", "a mini budhhu blaah"))
+
+# Match email address
+
+# 1 - 20 lowercase and uppercase letters, nos plus ._%+-
+# An @ symbol
+# 2-20 lowercase and uppercase letters, nos plus .-
+# A period
+# 2-3 lowercase and uppercase letters
+
+emailList = "db@aol.com m@.com @apple.com db@.com"
+
+print("Email matches:", re.findall("[\w._%+-]{1,20}@[\w.-]{2,20}.[A-Za-z]{2,3}", emailList))
