@@ -1,4 +1,5 @@
 import re
+
 # Did you find a match
 # if re.search("REGEX", yourString)
 
@@ -82,7 +83,6 @@ regexp = re.compile("<name>(.*?)</name>")
 matches = re.findall(regexp, randStr)
 print(matches)
 
-
 # WORD BOUNDARIES
 
 # Used to define where our matches both start and end
@@ -99,7 +99,6 @@ regexp = re.compile(r"\bape\b")
 matches = re.findall(regexp, randStr)
 print(matches)
 
-
 # String Boundaries
 
 # ^: match beginning of string
@@ -115,26 +114,45 @@ regexp = re.compile(r"[^@\s].*$")
 matches = re.findall(regexp, randStr)
 print(matches)
 
+# We want to grab first word of each line
+
+# (?m): Allows us to target each line in multi line string
+
 randStr = '''Ape is big
 Turtle is slow
 Cheetah is fast
 '''
 
-regexp = re.compile(r"[^@\s].*$")
+regexp = re.compile(r"(?m)^.*?\s")
+matches = re.findall(regexp, randStr)
+print(matches)
+
+# target each line -> start fro beginning of string
+# -> get one or many chars in non greedy way -> upto space
+
+# Sub expressions
+
+# Match for a large block but only return part of it
+
+# Surround what we want with ()
+
+
+randStr = "412-555-1212"
+regexp = re.compile(r"412-(.*)")
 matches = re.findall(regexp, randStr)
 print(matches)
 
 
+randStr = "412-555-1212 412-555-1213 412-555-1214"
+regexp = re.compile(r"412-(.{8})")
+matches = re.findall(regexp, randStr)
+print(matches)
 
+# Had it been: r"412-(.*)"
+# It would have checked 1st 412- and grabbed everything after it
+# ['555-1212 412-555-1213 412-555-1214']
 
-
-
-
-
-
-
-
-
+# Multiple sub expressions
 
 
 
