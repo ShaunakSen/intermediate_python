@@ -8,6 +8,11 @@ url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id=18175'
 labels = []
 values = []
 
+
+labels2 = []
+values2 = []
+
+
 r = requests.get(url)
 # r.content
 soup = BeautifulSoup(r.content, 'lxml')
@@ -54,4 +59,23 @@ big_table_tr_1_siblings = big_table_tr_1.find_next_siblings("tr")
 big_table_tr_2 = big_table_tr_1_siblings[0]
 big_table_tr_3 = big_table_tr_1_siblings[1]
 
-print big_table_tr_2
+# scraping big_table_tr_1
+
+big_table_tr_1_labels = big_table_tr_1.find_all("b")
+
+for label in big_table_tr_1_labels:
+    labels2.append(label.string)
+
+
+big_table_tr_1_values = big_table_tr_1.find_all("span", {"class": "login"})
+
+for value in big_table_tr_1_values:
+    values2.append(value.string)
+
+print values2
+
+# sanitary check
+
+
+if print len(labels2) == len(values2):
+    print "Good to go!"
