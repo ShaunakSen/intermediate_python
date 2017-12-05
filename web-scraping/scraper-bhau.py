@@ -44,6 +44,14 @@ for value in general_info_values:
 
 # print values
 
-second_table_data = first_table_row.find_next_siblings("tr")[1]
+big_table_data = first_table_row.find_next_siblings("tr")[1].find_all("table", limit = 1)[0]
 
-print second_table_data
+big_table_tr_1 = big_table_data.find_all("tr", limit=1)[0]
+# print big_table_trs
+
+big_table_tr_1_siblings = big_table_tr_1.find_next_siblings("tr")
+
+big_table_tr_2 = big_table_tr_1_siblings[0]
+big_table_tr_3 = big_table_tr_1_siblings[1]
+
+print big_table_tr_2
