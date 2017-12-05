@@ -12,6 +12,12 @@ values = []
 labels2 = []
 values2 = []
 
+labels3 = []
+values3 = []
+
+labels4 = []
+values4 = []
+
 
 r = requests.get(url)
 # r.content
@@ -72,10 +78,21 @@ big_table_tr_1_values = big_table_tr_1.find_all("span", {"class": "login"})
 for value in big_table_tr_1_values:
     values2.append(value.string)
 
-print values2
+# print values2
 
 # sanitary check
 
 
-if print len(labels2) == len(values2):
+if len(labels2) == len(values2):
     print "Good to go!"
+
+big_table_tr_2_labels = big_table_tr_2.find_all("b")
+
+for label in big_table_tr_2_labels:
+    labels3.append(label.string)
+
+
+big_table_tr_2_values = big_table_tr_2.find_all("span", {"class": "login"})
+
+for value in big_table_tr_2_values:
+    values3.append(value.string)
