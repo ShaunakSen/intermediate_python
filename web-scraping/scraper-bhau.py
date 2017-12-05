@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 
 url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id=18175'
 
+labels_all = []
+values_all = []
+
 labels = []
 values = []
 
@@ -96,3 +99,20 @@ big_table_tr_2_values = big_table_tr_2.find_all("span", {"class": "login"})
 
 for value in big_table_tr_2_values:
     values3.append(value.string)
+
+
+big_table_tr_3_labels = big_table_tr_3.find_all("b")
+
+for label in big_table_tr_3_labels:
+    labels4.append(label.string)
+
+
+big_table_tr_3_values = big_table_tr_3.find_all("span", {"class": "login"})
+
+for value in big_table_tr_3_values:
+    values4.append(value.string)
+
+
+
+if len(labels) == len(values) and len(labels2) == len(values2) :
+    print "Good to go!"
