@@ -4,14 +4,7 @@ from bs4 import BeautifulSoup
 
 
 
-user_ids = [21854, 18175, 21222]
 
-root_url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id='
-
-urls_to_scrape = []
-
-for user_id in user_ids:
-    urls_to_scrape.append(root_url + str(user_id))
 
 
 
@@ -20,6 +13,19 @@ url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id=18175'
 scrape_counter = 0
 
 
+#----------------------------------------------------------------------
+def csv_reader(file_obj):
+    """
+    Read a csv file
+    """
+    global user_ids
+    reader = csv.reader(file_obj)
+    for row in reader:
+        for user_id in row:
+            if user_id not in user_ids:
+                user_ids.append(user_id)
+    print user_ids
+#----------------------------------------------------------------------
 
 #----------------------------------------------------------------------
 def csv_writer(data, path):
@@ -31,6 +37,7 @@ def csv_writer(data, path):
         for line in data:
             writer.writerow(line)
 #----------------------------------------------------------------------
+
 
 
 def scrape_url(url):
@@ -190,8 +197,27 @@ def scrape_url(url):
 
     print "Done............."
     scrape_counter += 1
+    if scrape_counter == 1:
+        csv_writer([labels_all, values_all], "out.csv")
+    else:
+        csv_writer([values_all], "out.csv")
 
-    csv_writer([labels_all, values_all], "out.csv")
+
+user_ids = []
+
+root_url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id='
+
+urls_to_scrape = []
+
+
+
+csv_path = "input.csv"
+with open(csv_path, "rb") as f_obj:
+    csv_reader(f_obj)
+
+for user_id in user_ids:
+    urls_to_scrape.append(root_url + str(user_id))
+
 
 
 for url in urls_to_scrape:
