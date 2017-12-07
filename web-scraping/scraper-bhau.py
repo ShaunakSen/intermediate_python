@@ -19,6 +19,20 @@ url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id=18175'
 
 scrape_counter = 0
 
+
+
+#----------------------------------------------------------------------
+def csv_writer(data, path):
+    """
+    Write data to a CSV file path
+    """
+    with open(path, "a") as csv_file:
+        writer = csv.writer(csv_file, delimiter=',')
+        for line in data:
+            writer.writerow(line)
+#----------------------------------------------------------------------
+
+
 def scrape_url(url):
 
     global scrape_counter
@@ -153,18 +167,31 @@ def scrape_url(url):
     for value in values_all:
         if value is not None:
             values_all[i] = " ".join(value.split())
+            values_all[i] = values_all[i].replace(',', ' ')
+        else:
+            values_all[i] = "Not specified"
         i += 1
     print values_all
+
 
     i = 0
     for label in labels_all:
         if label is not None:
             labels_all[i] = " ".join(label.split())
+            labels_all[i] = labels_all[i].replace(',', ' ')
+        else:
+            labels_all[i] = "Not specified"
+
         i += 1
     print labels_all
 
+
+
+
     print "Done............."
     scrape_counter += 1
+
+    csv_writer([labels_all, values_all], "out.csv")
 
 
 for url in urls_to_scrape:

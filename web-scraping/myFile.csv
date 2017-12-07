@@ -1,101 +1,35 @@
-origin,destination,driving-distance,driving-time
-"Majestic Railway Station, Gubbi Thotadappa Road, Bangalore, Karnataka, India Via Yaswanthpur Junction","Kottigepalya, Naagarabaavi, Bangalore, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Bangalore, Karnataka, India",Sjes Central School Medically Virgonagar Bangalore,24 kms or 14.9 miles or 13 nautical miles,28 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Bangalore, Karnataka, India","Bannerghatta Road, Jayanagar, Bangalore 69",10 kms or 6.2 miles or 5.4 nautical miles,12 minutes
-Majestic Railway Station,"Brindavan College Of Engineering, Yelahanka, Bangalore",20 kms or 12.4 miles or 10.8 nautical miles,24 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Bangalore City Railway Station, Karnataka, India",13 kms or 8.1 miles or 7 nautical miles,15 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Padmashree College Of Hospital Administration, Jyothi Nagar, Bangalore, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Kalasipalyam Main Road, Jayanagar, Kalasipalayam, Bangalore, Karnataka, India",3 kms or 1.9 miles or 1.6 nautical miles,3 minutes
-"Majestic Railway Station, Karnataka, India","Uttarahalli Main, Brindavan Layout, Padmanabha Nagar, Bengaluru, Karnataka, India",9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Bangalore, Karnataka, India","Banashankari Metro Station, National Highway 209, Phase 1, J P Nagar, Bangalore, Karnataka, India",8 kms or 5 miles or 4.3 nautical miles,9 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Sagar Railway Station, Sagar Cantt., Sagar, Madhya Pradesh, India",1492 kms or 927.1 miles or 805.6 nautical miles,"1 days, 5 hours, 50 minutes"
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Katpadi Junction, Katpadi, Tamil Nadu, India",220 kms or 136.7 miles or 118.8 nautical miles,"4 hours, 24 minutes"
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Jolarpet Jn Bus Stop, Jolarpet, Tamil Nadu, India",143 kms or 88.9 miles or 77.2 nautical miles,"2 hours, 51 minutes"
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Nagarbhavi, Bangalore, Karnataka, India",8 kms or 5 miles or 4.3 nautical miles,9 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Nandidurg Road, Jayamahal, Bangalore, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Karnataka, India","Platinum City, Tumkur Road, Karnataka, India",12 kms or 7.5 miles or 6.5 nautical miles,14 minutes
-"Majestic Railway Station, Karnataka, India","Platinum City, Hmt Layout, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Dodda Byalakere, Bangalore, Karnataka, India",18 kms or 11.2 miles or 9.7 nautical miles,21 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","H Siddaiah Road, Sudhama Nagar, Bangalore, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","P And T Colony, Kadugondanahalli, Bangalore, Karnataka, India",9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Kanaka Nagar, Hebbal, Bangalore, Karnataka, India",11 kms or 6.8 miles or 5.9 nautical miles,13 minutes
-Majestic Railway Station,"Hot Line Training Centre, Somanahalli, Karnataka, India",34 kms or 21.1 miles or 18.4 nautical miles,40 minutes
-Majestic Railway Station,"Power System Training Institute, Subramanya Pura Main Road, Banashankari, Bangalore, Karnataka, India",9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Hosa Road Junction Bus Stop, Pragathi Nagar, Basapura, Bangalore, Karnataka, India",22 kms or 13.7 miles or 11.9 nautical miles,26 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bengaluru, Karnataka, India","Sri Jagadguru Renukacharya College Of Sci, Bangalore, Karnataka, India",1 kms or 0.6 miles or 0.5 nautical miles,1 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Crossroads Inn, 23rd Main Rd, Phase 2, J P Nagar, Bangalore, Karnataka, India",10 kms or 6.2 miles or 5.4 nautical miles,12 minutes
-"Majestic Railway Station, Karnataka, India","Bangalore City Railway Station, Karnataka, India",18 kms or 11.2 miles or 9.7 nautical miles,21 minutes
-"Majestic Railway Station, Railway Road, Railway Colony, Sevashrama, Bangalore, Karnataka, India","Kalasipalayam, Karnataka, India",5 kms or 3.1 miles or 2.7 nautical miles,6 minutes
-"Majestic Railway Station, Railway Road, Railway Colony, Sevashrama, Bangalore, Karnataka, India","Kpn Bus Service, H Siddaiah Road, Wilson Garden, Bangalore, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Koramangala Industrial Layout, Koramangala, Bangalore, Karnataka, India",9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-"Majestic Railway Station, Bangalore, Karnataka, India","Diary Circle Bus Stop, Bannerghatta Road, Hombegowda Nagar, Bangalore, Karnataka, India",9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Nagarabhavi, Annapurneshwari Nagar, Bangalore, Karnataka, India",10 kms or 6.2 miles or 5.4 nautical miles,12 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Ladoos North Indian Restaurant, Velankani Drive, Electronics City Phase 1, Electronics City, Bangalore, Karnataka, India",22 kms or 13.7 miles or 11.9 nautical miles,26 minutes
-"Majestic Railway Station, Railway Road, Railway Colony, Sevashrama, Bangalore, Karnataka, India","Kpn Bus Service, H Siddaiah Road, Wilson Garden, Bangalore, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Railway Road, Railway Colony, Sevashrama, Bangalore, Karnataka, India","Airport Bus Stand, Bial, Bangalore, Karnataka, India",35 kms or 21.7 miles or 18.9 nautical miles,42 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India",Brigade Gateway,4 kms or 2.5 miles or 2.2 nautical miles,4 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Metros, Yeshwanthpur, Bangalore, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Railway Road, Railway Colony, Sevashrama, Bangalore, Karnataka, India","Ullal Main Road, Jnana Ganga Nagar, Bangalore, Karnataka, India",13 kms or 8.1 miles or 7 nautical miles,15 minutes
-"Majestic Railway Station, Karnataka, India","Madiwala Police Station, Karnataka, India",11 kms or 6.8 miles or 5.9 nautical miles,13 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Govindpur Main Road, Govindapura, Nagawara, Bangalore, Karnataka, India",10 kms or 6.2 miles or 5.4 nautical miles,12 minutes
-Majestic Railway Station,"Peenya Industrial Area, 4 Th Phase, 14 Th Cross",12 kms or 7.5 miles or 6.5 nautical miles,14 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Jc Road, Vinobha Nagar, Sudhama Nagar, Bangalore, Karnataka, India",4 kms or 2.5 miles or 2.2 nautical miles,4 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Garudachar Palya, Mahadevapura, Bangalore, Karnataka, India",18 kms or 11.2 miles or 9.7 nautical miles,21 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Garuda Mall, Sampangi Rama Nagar, Bangalore, Karnataka, India",6 kms or 3.7 miles or 3.2 nautical miles,7 minutes
-"Majestic Railway Station, Station Rd, Bengaluru, Karnataka, India","Baiyappanahalli Railway Station, Ngef Main Road, Sadanandanagar, Bennigana Halli, Bangalore, Karnataka, India",12 kms or 7.5 miles or 6.5 nautical miles,14 minutes
-"Majestic Railway Station, Railway Colony, Sevashrama, Bengaluru, Karnataka, India","Jp Nagar 2nd Phase Play Ground, 12th Cross Road Commercial Area, Phase Ii, J P Nagar, Bangalore, Karnataka, India",10 kms or 6.2 miles or 5.4 nautical miles,12 minutes
-"Majestic Railway Station, Karnataka, India","Acharya Bangalore B School, Bangalore, Karnataka, India",12 kms or 7.5 miles or 6.5 nautical miles,14 minutes
-Majestic Railway Station,", Naagarabaavi Main Road, Teachers Colony, Nagarabhavi, Bangalore, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Krishna Priya Choultry, Fort Kengeri, Kengeri Satellite Town, Bangalore, Karnataka, India",13 kms or 8.1 miles or 7 nautical miles,15 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Hemmigepura, Karnataka, India",17 kms or 10.6 miles or 9.2 nautical miles,20 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Nagawara Junction, Hbr Layout 5th Block, Bangalore, Karnataka, India",14 kms or 8.7 miles or 7.6 nautical miles,16 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India",Infantry Road Income Tax Colony,217 kms or 134.8 miles or 117.2 nautical miles,"4 hours, 20 minutes"
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Nobo Nagar, Kalena Agrahara, Bangalore, Karnataka, India",17 kms or 10.6 miles or 9.2 nautical miles,20 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Yesvantpur, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Agaram, Bangalore, Karnataka, India",12 kms or 7.5 miles or 6.5 nautical miles,14 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Satya Sai Temple, Brookefield, Bangalore, Karnataka, India",20 kms or 12.4 miles or 10.8 nautical miles,24 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India",Mahaveer Desire,15 kms or 9.3 miles or 8.1 nautical miles,18 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Bangalore, Karnataka, India","Nataraj Theatre, Bangalore, Karnataka, India",305 kms or 189.5 miles or 164.7 nautical miles,"6 hours, 6 minutes"
-"Majestic Railway Station, Gubbi Thotadappa Road, Bangalore, Karnataka, India","Nataraja Theatre, Sirur Park Road, Seshadripuram, Bangalore, Karnataka, India",2 kms or 1.2 miles or 1.1 nautical miles,2 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Biocon House, Electronic City Phase Ii, Electronics City, Bangalore, Karnataka, India",23 kms or 14.3 miles or 12.4 nautical miles,27 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Anjanapura Bda Layout, Bangalore, Karnataka, India",16 kms or 9.9 miles or 8.6 nautical miles,19 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Byappanahalli Railway Station, Karnataka, India",12 kms or 7.5 miles or 6.5 nautical miles,14 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Sonnappanahalli, Karnataka, India",45 kms or 28 miles or 24.3 nautical miles,54 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Jp Nagar 6th Phase, Kumaraswamy Layout, Bangalore, Karnataka, India",11 kms or 6.8 miles or 5.9 nautical miles,13 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Rammurthy Nagar, Ramamurthinagar Main Road, Devki Apparao Layout, Ramamurthy Nagar, Karnataka, India",15 kms or 9.3 miles or 8.1 nautical miles,18 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Christ College Bus Stop, Dairy Colony, Adugodi, Bangalore, Karnataka, India",9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Kondahalli, Karnataka, India",72 kms or 44.7 miles or 38.9 nautical miles,"1 hours, 26 minutes"
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India",Jeevanhali,9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Giri Nagar Bangalore, Karnataka, India",6 kms or 3.7 miles or 3.2 nautical miles,7 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Kalkere Bus Station, Kalkere Main Road, Kalkere, Bangalore, Karnataka, India",16 kms or 9.9 miles or 8.6 nautical miles,19 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Abbigere, Bangalore, Karnataka, India",13 kms or 8.1 miles or 7 nautical miles,15 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","New Horizon College Of Engineering, Outer Ring Road, Marathahalli, Bangalore, Karnataka, India",20 kms or 12.4 miles or 10.8 nautical miles,24 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Upparpete, Chickpete, Bangalore, Karnataka, India","Foremen Training Institute, Kanthirava Layout, Nandini Layout, Bangalore, Karnataka, India",9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-Majestic Railway Station,"Wipro Technologies Electronic City, Karnataka, India",23 kms or 14.3 miles or 12.4 nautical miles,27 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Iaim Healthcare Center, Bangalore, Karnataka, India",23 kms or 14.3 miles or 12.4 nautical miles,27 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Devanagonthi, Karnataka, India",33 kms or 20.5 miles or 17.8 nautical miles,39 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Kogilu Cross Bus Stop, Chowdeshwari Layout, Yelahanka, Bangalore, Karnataka, India",16 kms or 9.9 miles or 8.6 nautical miles,19 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Bishop Cotton Girls' School, St Marks Road, Shanthala Nagar, Ashok Nagar, Bangalore, Karnataka, India",5 kms or 3.1 miles or 2.7 nautical miles,6 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Apex Hi Tech Institute, Outer Ring Road, Yeshwanthpura, Bangalore, Karnataka, India",10 kms or 6.2 miles or 5.4 nautical miles,12 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Village Hypermarket, 15th Cross Road, Neeladri Nagar, Electronics City, Doddathoguru, Karnataka, India",25 kms or 15.5 miles or 13.5 nautical miles,30 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Rajarajeshwari Temple, Kenchenhalli, Rr Nagar, Bangalore, Karnataka, India",10 kms or 6.2 miles or 5.4 nautical miles,12 minutes
-"Majestic Railway Station, Karnataka, India","Neelasandra, Bangalore, Karnataka, India",8 kms or 5 miles or 4.3 nautical miles,9 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","J.p.nagar 1st Phase Bus Stop, Anjaneya Temple Road, Phase 1, J P Nagar, Bangalore, Karnataka, India",9 kms or 5.6 miles or 4.9 nautical miles,10 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Ms Palya Bus Stop, Muhammad Sahibpalya, Vidyaranyapura, Bangalore, Karnataka, India",14 kms or 8.7 miles or 7.6 nautical miles,16 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Sevashrama, Bengaluru, Karnataka, India","Bangalore Opticals, Cross Cut Road, Ram Nagar, Coimbatore, Tamil Nadu, India",366 kms or 227.4 miles or 197.6 nautical miles,"7 hours, 19 minutes"
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Rameshwara Temple Road, Chamarajpet, Bangalore, Karnataka, India",3 kms or 1.9 miles or 1.6 nautical miles,3 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Mittal Palms, Bangalore, Karnataka, India",16 kms or 9.9 miles or 8.6 nautical miles,19 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Majestic, Bangalore, Karnataka, India","Indira Nagar 1st Stage, Indira Nagar, Bangalore, Karnataka, India",11 kms or 6.8 miles or 5.9 nautical miles,13 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Bangalore, Karnataka, India","Andhrahalli Cross Bus Stop, Bangalore, Karnataka, India",32 kms or 19.9 miles or 17.3 nautical miles,38 minutes
-Majestic Railway Station,"Btm Layout Playground, Btm Layout 2nd Stage, Bangalore, Karnataka, India",13 kms or 8.1 miles or 7 nautical miles,15 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Bangalore, Karnataka, India","Satya Sai Ashram, Barapatthar, Seoni, Madhya Pradesh, India",1204 kms or 748.1 miles or 650.1 nautical miles,"1 days, 4 minutes"
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Bangalore, Karnataka, India","Industrial Town Road, Rajaji Nagar, Bangalore, Karnataka, India",3 kms or 1.9 miles or 1.6 nautical miles,3 minutes
-"Majestic Railway Station, Karnataka, India","Madiwala Police Station, Karnataka, India",12 kms or 7.5 miles or 6.5 nautical miles,14 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Bangalore, Karnataka, India","Doddabanahalli, Karnataka, India",27 kms or 16.8 miles or 14.6 nautical miles,32 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Bangalore, Karnataka, India","T.john Institute Of Technology, Kammanahalli",19 kms or 11.8 miles or 10.3 nautical miles,22 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Bangalore, Karnataka, India","Silk Board Junction, Stage 1, Bangalore, Karnataka, India",14 kms or 8.7 miles or 7.6 nautical miles,16 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Bangalore, Karnataka, India","Hennur 4 Cross, Hbr Layout 4th Block, Hbr Layout, Bangalore, Karnataka, India",16 kms or 9.9 miles or 8.6 nautical miles,19 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Bangalore, Karnataka, India","S B Tower, Mg Road, Karnataka, India",7 kms or 4.3 miles or 3.8 nautical miles,8 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Bangalore, Karnataka, India","The Lalit Ashok Bangalore, Kumara Park East, Bangalore, Karnataka, India",3 kms or 1.9 miles or 1.6 nautical miles,3 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Railway Colony, Bangalore, Karnataka, India","Bel Composite P U College, Bangalore, Karnataka, India",12 kms or 7.5 miles or 6.5 nautical miles,14 minutes
-"Majestic Railway Station, Gubbi Thotadappa Road, Majestic, Bangalore, Karnataka, India","Kundalahalli Gate, Varthur Main Road, Anand Nagar, Bangalore, Karnataka, India",19 kms or 11.8 miles or 10.3 nautical miles,22 minutes
+Name:,Date of birth:,Occupation:,About Me /Hobbies:,Marital Sts:,First Gotra:,Second Gotra:,Email-Id:,Resi. Add:,Contact No:,Perm. Add:,Contact No:,Height:,Blood Group:,Complexion:,Education:,Annual Income:,Mother Tongue:,Birth Name:,Birth Time:,Birth Place:,Father's Name:,Occupation:,Mother's Name:,Occupation:,No. of Brothers:,Brother Details:,No. of Sisters:,Sister Details:,Qualification:,Annual Income:,Age Range:,Height:,Complexion:,Occupation:,Preferred City:
+V,a,i,d,e,h,i, ,G,a,m,p,a,w,a,r
+2,6,-,J,a,n,-,1,9,9,4, ,(,2,3, ,y,e,a,r,s,)
+A,s,s,i,s,t,a,n,t, ,S,y,s,t,e,m, ,E,n,g,i,n,e,e,r, ,a,t, ,T,C,S,",", ,N,a,g,p,u,r
+N,e,v,e,r, ,M,a,r,r,i,e,d
+Y,a,l,s,h,a,t,l,a
+P,u,n,g,e,s,h,i,l
+*,*,*,*,*,*,*,*,*,*,*
+*,*,*,*,*,*,*,*,*,*,*
+*,*,*,*,*,*,*,*,*,*,*
+*,*,*,*,*,*,*,*,*,*,*
+5,', ,2,"""", ,(,1,.,5,8, ,m,t,s,)
+O,+
+W,h,e,a,t,i,s,h
+B,.,E, ,(,E,T,C,)
+R,s,.,3,",",0,0,",",0,0,1, ,-, ,4,",",0,0,",",0,0,0
+M,a,r,a,t,h,i
+K,o,k,i,l,a
+
+N,a,g,p,u,r
+V,i,j,a,y
+S,e,n,i,o,r, ,C,l,e,r,k, ,a,t, ,A,m,r,a,v,a,t,i, ,S,e,s,s,i,o,n, ,C,o,u,r,t
+V,a,r,s,h,a
+H,o,u,s,e,w,i,f,e
+0
+
+1
+E,n,g,i,n,e,e,r,i,n,g, ,2,n,d, ,y,e,a,r
+S,e,l,e,c,t
+-
+2,6, ,t,o, ,2,8
+A,b,o,v,e, ,5,', ,7,"""", ,(,1,.,7,0, ,m,t,s,)
+N,o,r,m,a,l
+M,S, ,/, ,M,B,A, ,/, ,C,A, ,/, ,J,o,b, ,/, ,B,u,s,i,n,e,s,s
+A,n,y
