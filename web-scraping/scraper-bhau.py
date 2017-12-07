@@ -83,11 +83,7 @@ for value in big_table_tr_1_values:
 
 # print values2
 
-# sanitary check
 
-
-if len(labels2) == len(values2):
-    print "Good to go!"
 
 big_table_tr_2_labels = big_table_tr_2.find_all("b")
 
@@ -112,7 +108,40 @@ big_table_tr_3_values = big_table_tr_3.find_all("span", {"class": "login"})
 for value in big_table_tr_3_values:
     values4.append(value.string)
 
+# sanitary check
 
 
-if len(labels) == len(values) and len(labels2) == len(values2) :
+if len(labels) == len(values) and len(labels2) == len(values2) and len(labels3) == len(values3) and len(labels4) == len(values4):
     print "Good to go!"
+    for label in labels:
+        labels_all.append(label)
+    for label in labels2:
+        labels_all.append(label)
+    for label in labels3:
+        labels_all.append(label)
+    for label in labels4:
+        labels_all.append(label)
+    for value in values:
+        values_all.append(value)
+    for value in values2:
+        values_all.append(value)
+    for value in values3:
+        values_all.append(value)
+    for value in values4:
+        values_all.append(value)
+
+print labels_all, values_all
+
+i = 0
+for value in values_all:
+    if value is not None:
+        values_all[i] = " ".join(value.split())
+    i += 1
+print values_all
+
+i = 0
+for label in labels_all:
+    if label is not None:
+        labels_all[i] = " ".join(label.split())
+    i += 1
+print labels_all
