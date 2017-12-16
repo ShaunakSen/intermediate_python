@@ -43,7 +43,7 @@ def csv_writer(data, path):
 def scrape_url(url, user_id):
 
     global scrape_counter
-    print "scraping link no:", scrape_counter+1
+    print "scraping link no:", scrape_counter+1, "for id: ", user_id
 
     labels_all = []
     values_all = []
@@ -76,13 +76,13 @@ def scrape_url(url, user_id):
     #print first_table_row
 
     first_table_data = first_table_row.find_next_siblings("tr")[0]
-    print first_table_data
+    #print first_table_data
 
     first_table_data_left = first_table_data.find_all("td")[0]
     # print first_table_data_left
 
     if len(first_table_data_left.find_all("tr")) == 0:
-        print "ok"
+        print "skipping for user id:", user_id
         return
     first_table_data_left_trs = first_table_data_left.find_all("tr")[0]
     siblings = first_table_data_left_trs.find_next_siblings("tr")
@@ -179,6 +179,7 @@ def scrape_url(url, user_id):
     i = 0
     for value in values_all:
         if value is not None:
+            value = value.encode("utf-8")
             values_all[i] = " ".join(value.split())
             values_all[i] = values_all[i].replace(',', ' ')
         else:
@@ -190,6 +191,7 @@ def scrape_url(url, user_id):
     i = 0
     for label in labels_all:
         if label is not None:
+            label = label.encode("utf-8")
             labels_all[i] = " ".join(label.split())
             labels_all[i] = labels_all[i].replace(',', ' ')
         else:
