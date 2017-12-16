@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 
 
-url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id=18175'
+url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id=20000'
 
 scrape_counter = 0
 
@@ -40,7 +40,7 @@ def csv_writer(data, path):
 
 
 
-def scrape_url(url):
+def scrape_url(url, user_id):
 
     global scrape_counter
     print "scraping link no:", scrape_counter+1
@@ -70,14 +70,20 @@ def scrape_url(url):
 
     required_table = tables[0]
 
-    table_rows = required_table.find_all("tr")
+    table_rows = required_table.find_all("tr", class_ = True)
+    #print table_rows[0]
     first_table_row = table_rows[0]
+    #print first_table_row
 
     first_table_data = first_table_row.find_next_siblings("tr")[0]
+    print first_table_data
 
     first_table_data_left = first_table_data.find_all("td")[0]
     # print first_table_data_left
 
+    if len(first_table_data_left.find_all("tr")) == 0:
+        print "ok"
+        return
     first_table_data_left_trs = first_table_data_left.find_all("tr")[0]
     siblings = first_table_data_left_trs.find_next_siblings("tr")
 
@@ -179,7 +185,7 @@ def scrape_url(url):
             values_all[i] = "Not specified"
         i += 1
     print values_all
-
+    values_all.insert(0, user_id)
 
     i = 0
     for label in labels_all:
@@ -191,6 +197,8 @@ def scrape_url(url):
 
         i += 1
     print labels_all
+
+    labels_all.insert(0, "id")
 
 
 
@@ -209,16 +217,20 @@ root_url = 'http://www.anubandh.com/marriage_bureau/profile_table.jsp?user_id='
 
 urls_to_scrape = []
 
+min_url = int(raw_input("Enter min id: "))
+max_url = int(raw_input("Enter max id: "))
 
+for i in range(min_url, max_url+1):
+    user_ids.append(i)
 
 csv_path = "input.csv"
-with open(csv_path, "rb") as f_obj:
-    csv_reader(f_obj)
+#with open(csv_path, "rb") as f_obj:
+    #csv_reader(f_obj)
 
 for user_id in user_ids:
     urls_to_scrape.append(root_url + str(user_id))
 
 
 
-for url in urls_to_scrape:
-    scrape_url(url)
+for x in range(len(urls_to_scrape)):
+    scrape_url(urls_to_scrape[x], user_ids[x])
